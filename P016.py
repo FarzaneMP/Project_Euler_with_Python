@@ -4,7 +4,7 @@
 #2^15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
 #What is the sum of the digits of the number 2^1000?
 def power(x,n):
-    """This function calculate x^n
+    """This function calculates x^n
     n is an integer"""
     ans = 1
     for i in range(n):
@@ -13,7 +13,7 @@ def power(x,n):
 
 
 def sum_of_digits(Num):
-    """This function calculate
+    """This function calculates
     sum of the digits of a number
     Num is an int"""
     sum_digits = 0
