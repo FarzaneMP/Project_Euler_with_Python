@@ -1,3 +1,8 @@
+### Problem 20 from Project Euler
+#https://projecteuler.net/archives
+
+#ind the sum of all the positive integers which cannot be
+#written as the sum of two abundant numbers.
 def abundant(x, d=[]):
     """x is an int and this function
     calculates the sum of divisors of x and
