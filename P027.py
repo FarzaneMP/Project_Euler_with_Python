@@ -5,7 +5,8 @@ n^2+an+b, where |a|<1000 and |b|≤1000
 Find the product of the coefficients, a and b,
  for the quadratic expression that produces
  the maximum number of primes for consecutive values of n,
- starting with n=0."""
+ starting with n=0.
+ """
 
 def is_prime(x):
     """input: integer
@@ -20,9 +21,12 @@ def is_prime(x):
 
     return True
 
+a_limit = 999
+b_limit = 1000
+
 prime_count_max = 0
-for a in range(-999,1000):
-    for b in range(-1000, 1001):
+for a in range(-a_limit, a_limit+1):
+    for b in range(-b_limit, b_limit+1):
         n = 0
         while is_prime(n*n + a*n + b):
             x = n**2 + a*n + b
