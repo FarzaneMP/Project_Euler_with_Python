@@ -1,4 +1,6 @@
 # Project_Euler_with_Python
 Here I will share my solutions to Project Euler using Python!
-Here is the link:
+
+
+Here is the link to the problems:
 https://projecteuler.net/
